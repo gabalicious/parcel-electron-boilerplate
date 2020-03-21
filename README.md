@@ -1,47 +1,102 @@
-# README Boilerplate
+# Electron with Parcel Boilerplate
 
 A template for making Electron apps .
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Support](#support)
-- [Contributing](#contributing)
+- [Motivation](#Motivation)
+- [Features](#Features)
+- [File Structure](#File-Structure)
+- [Prerequisites](#Prerequisites)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Contributing](#Contributing)
+- [ToDo](#ToDo)
+
+## Motivation
+
+I coudn't find a good boilerplate to start off my electron
+project. I thought I'd make one so other people don't have
+to bang their head's against the wall.
+
+<!-- ![alt text](https://media2.giphy.com/media/hqZx1N5QpPyT0pqjMu/giphy.gif "How I program") -->
+
+![alt text](<https://image.slidesharecdn.com/introvenus-140417215728-phpapp01/95/introduction-to-venusjs-38-638.jpg?cb=1397772361>
+"How I program" =x260)
+![alt text](<https://thumbs.dreamstime.com/t/cartoon-stick-man-drawing-conceptual-illustration-headstrong-businessman-running-against-brick-wall-head-first-business-concept-112391908.jpg>
+"Also How I program" =x260)
+
+## Features
+
+- Runs Parcel and Electron side by side
+- Automatically restarts Electron when configuration files
+  is updated or required files are updated and saved.
+- Automatically restarts Parcel bundler when parcel
+  onfiguration file is updated required files are updated
+  and saved.
+- HMR support so your page refreshes when files in your
+  source files are updated and saved.
+- Supports zero configuration compilation with ReasonML,
+  SCSS, LESS, Stylus, TypeScript, CoffeeScript, Vue,
+  GraphQL, Rust, WebAssembly, Elm, OpenGL, and Pug.
+- NPM scripts baked in to help you with your experience.
+
+## File Structure
+
+```sh
+├── README.md
+├── config
+│   ├── electron-config.json
+│   ├── nodemon-config.json
+│   └── parcel-config.json
+├── index.html
+├── jsconfig.json
+├── main.js
+├── package-lock.json
+├── package.json
+├── server
+│   ├── express.js
+│   ├── parcel-bundler.js
+│   └── parcel-runner.js
+└── src
+    ├── App.vue
+    └── renderer.js
+```
+
+## Prerequisites
+
+Node version 8/10 or higher. This has only been tested on
+Mac OS. I hope to.
 
 ## Installation
 
-Download to your project directory, add `README.md`, and
-commit:
-
 ```sh
-curl -LO http://git.io/Xy0Chg
-git add README.md
-git commit -m "Use README Boilerplate"
+git clone ect...
+npm install
 ```
 
 ## Usage
 
-Replace the contents of `README.md` with your project's:
-
-- Name
-- Description
-- Installation instructions
-- Usage instructions
-- Support instructions
-- Contributing instructions
-- Licence
+git clone and remove .git folder to start your own project
 
 ## Contributing
 
-Please feel free to contribute using
-[Github Flow](https://guides.github.com/introduction/flow/).
-Create a branch, add commits, and
-[open a pull request](https://github.com/fraction/readme-boilerplate/compare/).
+Please feel free to contribute by forking and making pull
+requests. I would love a follow or a star for this project.
+Thanks
 
 ## ToDo
 
-- Update Readme
-- Figure out how to remove electron
-- Working builds
-- Update and clean up Npm scripts
+- [x] ~~Update Readme~~
+- [x] ~~Figure out how to remove electron~~
+- [ ] Update installation instructions
+- [ ] Update installation requirements
+- [ ] Update and clean package.json
+  - [ ] working lint scripts
+  - [ ] working debug scripts for chrome/vscode
+  - [ ] Remove unused node packages.
+  - [ ] Add Build Scripts to package.json
+- [ ] Add Option to serve up frontend via express instead of
+      with electron npm module
+- [ ] Write tests
