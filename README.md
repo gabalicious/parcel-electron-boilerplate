@@ -20,12 +20,9 @@ I coudn't find a good boilerplate to start off my electron
 project. I thought I'd make one so other people don't have
 to bang their head's against the wall.
 
-<!-- ![alt text](https://media2.giphy.com/media/hqZx1N5QpPyT0pqjMu/giphy.gif "How I program") -->
+<img src="https://image.slidesharecdn.com/introvenus-140417215728-phpapp01/95/introduction-to-venusjs-38-638.jpg?cb=1397772361" height="260">
 
-![alt text](<https://image.slidesharecdn.com/introvenus-140417215728-phpapp01/95/introduction-to-venusjs-38-638.jpg?cb=1397772361>
-"How I program" =x260)
-![alt text](<https://thumbs.dreamstime.com/t/cartoon-stick-man-drawing-conceptual-illustration-headstrong-businessman-running-against-brick-wall-head-first-business-concept-112391908.jpg>
-"Also How I program" =x260)
+<img src="https://thumbs.dreamstime.com/t/cartoon-stick-man-drawing-conceptual-illustration-headstrong-businessman-running-against-brick-wall-head-first-business-concept-112391908.jpg" height="260">
 
 ## Features
 
