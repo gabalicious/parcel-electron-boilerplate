@@ -1,6 +1,7 @@
 # Electron with Parcel Boilerplate
 
-A template for making Electron apps .
+Electron + Parcel = Margic. Image goes here <br> A template
+for making Electron apps .
 
 ## Table of Contents
 
@@ -11,7 +12,7 @@ A template for making Electron apps .
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Contributing](#Contributing)
-- [Contributing](#Contributing)
+- [Issues](#Issues)
 - [ToDo](#ToDo)
 
 ## Motivation
@@ -20,7 +21,8 @@ I coudn't find a good boilerplate to start off my electron
 project. I thought I'd make one so other people don't have
 to bang their head's against the wall.
 
-<img src="https://image.slidesharecdn.com/introvenus-140417215728-phpapp01/95/introduction-to-venusjs-38-638.jpg?cb=1397772361" height="260"><img src="https://thumbs.dreamstime.com/t/cartoon-stick-man-drawing-conceptual-illustration-headstrong-businessman-running-against-brick-wall-head-first-business-concept-112391908.jpg" height="260">
+<div style="{color: red}">test</div>
+<img src="https://image.slidesharecdn.com/introvenus-140417215728-phpapp01/95/introduction-to-venusjs-38-638.jpg?cb=1397772361" height="260" alt="How I program"> <img src="https://thumbs.dreamstime.com/t/cartoon-stick-man-drawing-conceptual-illustration-headstrong-businessman-running-against-brick-wall-head-first-business-concept-112391908.jpg" height="260" alt="Also How I program, but after coffee.">
 
 ## Features
 
@@ -74,6 +76,11 @@ npm install
 ## Usage
 
 git clone and remove .git folder to start your own project
+
+## Issues
+
+- Currently this has not been tested with Windows or Linux.
+  I will test soon.
 
 ## Contributing
 
