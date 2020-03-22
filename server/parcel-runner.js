@@ -25,7 +25,7 @@ let parcelRun = async () => {
       { recursive: true },
       function(event) {
         if (event === 'update') {
-          console.log('\nRestarting Parcel Bundler\n');
+          // Kill and Restart Parcel
           subprocess.kill('SIGTERM', {
             forceKillAfterTimeout: 2000,
           });
