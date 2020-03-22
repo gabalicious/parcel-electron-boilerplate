@@ -11,7 +11,8 @@
     "debug": "electron --nolazy --inspect-brk=9229 .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:dry": "eslint --inspect-brk=9229 eslint . --fix-dry-run",
-    "lint:fix": "eslint --inspect-brk=9229 . --fix"
+    "lint:fix": "eslint --inspect-brk=9229 . --fix",
+    "print-tree": "tree -I 'node_modules|cache|test_*|dist'"
   },
   "author": "Justin Gaba",
   "license": "ISC",
