@@ -18,7 +18,9 @@
     "panel.border": "#00cc99",
     "sideBar.border": "#00cc99",
     "editorGroup.border": "#00cc99",
-    "tab.activeBorder": "#00cc99"
+    "tab.activeBorder": "#00cc99",
+    "statusBar.border": "#009973",
+    "titleBar.border": "#009973"
   },
   "cSpell.enabled": false,
   "cSpell.enableFiletypes": ["jsonc"],
